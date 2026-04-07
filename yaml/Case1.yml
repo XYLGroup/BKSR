@@ -1,0 +1,12 @@
+dataname: Salinas
+eta1: 70
+eta2: 4
+k: 2
+step: 50
+task: sr
+sf: 4
+k_s: 9
+min_var: 1.69
+max_var: 1.69
+non_iid: false
+blind: false

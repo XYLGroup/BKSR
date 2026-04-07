@@ -1,0 +1,12 @@
+dataname: Indian
+eta1: 20
+eta2: 2
+k: 12
+step: 80
+task: sr
+sf: 2
+k_s: 19
+min_var: 0.4
+max_var: 10
+non_iid: False
+blind: True

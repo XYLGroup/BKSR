@@ -1,0 +1,12 @@
+dataname: Chikusei
+eta1: 80
+eta2: 6
+k: 12
+step: 100
+task: sr
+sf: 4
+k_s: 19
+min_var: 0.4
+max_var: 10
+non_iid: True
+blind: True
