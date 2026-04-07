@@ -35,14 +35,14 @@ Zhixiong Yang, Jingyuan Xia, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu
 | ▶️ [Quick Demo](#quick-demo) | Run examples & commands |
 | 📚 [Citation](#citation) | How to cite |
 
-# Overview
+# 📌 Overview
 > **Abstract:** *Hyperspectral image super-resolution (HSI-SR) is fundamentally more difficult than RGB image SR, since its ultrahigh spectral dimensionality.Existing supervised methods rely on labeled training data to obtain data prior, which incurs prohibitive collection costs and limits generalization.Unsupervised methods individually preset the band and kernel with handcrafted priors, whereas this decoupling modeling artificially creates a complexity-performance trade-off in the selected band number.To address these issues, we propose BKX-HMM, a unified statistical framework for blind HSI-SR, which uniformly models the band selection, kernel estimation, and HSI restoration through the state transition of a hidden Markov model (HMM).BKX-HMM redefines the trade-off as a distributional fitting problem: each Markov transition progressively learns optimal parameters of a full-band distribution via limited spectral observations. Based on BKX-HMM, we propose BKSR, the first unsupervised blind HSI-SR method, which consists of three synergistic modules: Gibbs sampling-based band selection (GBS), test-time-training kernel estimation (TKE), and robust HSI restoration (RHR).These modules form a closed-loop optimization cycle: i) In GBS, the dynamic ergodicity of Gibbs sampling provides a global spectral view for kernel estimation and HSI restoration while maintaining local spectral computations;ii) In TKE, the GBS-sampled bands guide the kernel estimator update, achieving a learnable sampling-based mechanism, which refines kernel estimation to regularize RHR’s diffusion trajectory;iii) In RHR, a spectral hyper-Laplacian prior is integrated into the reverse process of an off-the-shelf diffusion model, which achieves non-i.i.d. noise robust HSI restoration, feedback reweights band and kernel importance for subsequent GBS and TKE iterations.Extensive experiments on both synthetic and real HSI datasets demonstrate our BKSR's superiority over baseline methods across diverse scenarios (e.g., unknown Gaussian/motion kernel, non-i.i.d. noise) while maintaining comparable computational costs to the classic band selection methods.*
 
 <div align=center>
 <img src="figs/framework.png" height="100%" width="100%"/>
 </div>
 
-# Visual Results On Noisy Super-Resolution
+# 🖼️ Visual Results On Noisy Super-Resolution
 
 <div align=center>
 <img src="figs/Salinas_nonblind.png" height="100%" width="100%"/>
@@ -56,7 +56,7 @@ Zhixiong Yang, Jingyuan Xia, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu
 <img src="figs/Chikusei_noniid.png" height="100%" width="100%"/>
 </div>
 
-# Environment Setup
+# ⚙️ Environment Setup
 
 Recommended software stack:
 
@@ -70,7 +70,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-# Project Structure
+# 🗂️ Project Structure
 
 ```text
 BKSR/
@@ -86,7 +86,7 @@ BKSR/
 └─ figs/                           # paper and experiment figures
 ```
 
-# Datasets Preparation
+# 📁 Datasets Preparation
 
 ## Dataset Paths
 
@@ -112,7 +112,7 @@ and place it at:
 checkpoints/diffusion/I190000_E97_gen.pth
 ```
 
-# Quick Demo
+# ▶️ Quick Demo
 
 After tuning the hyperparameters, run main.py by default：
 
@@ -155,7 +155,7 @@ Execution notes:
 - Default task is super-resolution (`-task sr`) with `x4` scale.
 - Use `-gpu 0` (or your own GPU id) to select GPU.
 
-# Citation
+# 📚 Citation
 
 If this repository is useful for your research, please cite:
 
