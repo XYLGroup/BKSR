@@ -44,11 +44,17 @@ Zhixiong Yang, Jingyuan Xia, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu
 
 # Visual Results On Noisy Super-Resolution
 
-![Salinas Non-Blind](figs\Salinas_nonblind.png)
+<div align=center>
+<img src="figs/Salinas_nonblind.png" height="100%" width="100%"/>
+</div>
 
-![WDC Blind](figs\WDC_Blind.png)
+<div align=center>
+<img src="figs/WDC_Blind.png" height="100%" width="100%"/>
+</div>
 
-![Chikusei Non-Blind](figs\Chikusei_noniid.png)
+<div align=center>
+<img src="figs/Chikusei_noniid.png" height="100%" width="100%"/>
+</div>
 
 # Environment Setup
 
