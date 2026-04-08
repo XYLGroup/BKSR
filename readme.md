@@ -160,6 +160,14 @@ Execution notes:
 If this repository is useful for your research, please cite:
 
 ```text
-
-
+@article{yang2026BKSR,
+  author={Yang, Zhixiong and Xia, Jingyuan and Li, Shengxi and Zheng, Lingyu and Zhang, Shuanghui and Liu, Li and Fu, Yaowen and Liu, Yongxiang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-18},
+  keywords={Earth Observing System;Feedback;Circuits;Filters;Anisotropic;Circuits and systems;Filtering;Pixel;TV;Videos;Hyperspectral image super-resolution;unsupervised learning;Gibbs sampling;diffusion models},
+  doi={10.1109/TPAMI.2026.3681688}}
 ```
