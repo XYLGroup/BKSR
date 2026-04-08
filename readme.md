@@ -14,8 +14,8 @@
 </p>
 
 <p>
-	<a href="#-quick-demo"><img src="https://img.shields.io/badge/Run-Demo-111827?style=flat-square" alt="Run Demo" /></a>
-	<a href="#-visual-results-on-noisy-super-resolution"><img src="https://img.shields.io/badge/View-Figures-111827?style=flat-square" alt="View Figures" /></a>
+	<a href="#️-quick-demo"><img src="https://img.shields.io/badge/Run-Demo-111827?style=flat-square" alt="Run Demo" /></a>
+	<a href="#️-visual-results-on-noisy-super-resolution"><img src="https://img.shields.io/badge/View-Figures-111827?style=flat-square" alt="View Figures" /></a>
 	<a href="#-citation"><img src="https://img.shields.io/badge/Cite-TPAMI-111827?style=flat-square" alt="Citation" /></a>
 </p>
 
