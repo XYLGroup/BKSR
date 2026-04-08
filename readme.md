@@ -2,7 +2,7 @@
 
 # [TPAMI 2026] Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution
 
-Zhixiong Yang, Jingyuan Xia, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu, Li Liu, Yaowen Fu, Deniz Gündüz, Yongxiang Liu
+[`Zhixiong Yang`](https://zhixiongyang21.github.io/), [`Jingyuan Xia`](https://www.xiajingyuan.com/), Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu, Li Liu, Yaowen Fu, Deniz Gündüz, Yongxiang Liu
 
 <p>
 	<img src="https://img.shields.io/badge/TPAMI-2026-0A66C2?style=for-the-badge" alt="TPAMI 2026" />
@@ -171,3 +171,9 @@ If this repository is useful for your research, please cite:
   keywords={Earth Observing System;Feedback;Circuits;Filters;Anisotropic;Circuits and systems;Filtering;Pixel;TV;Videos;Hyperspectral image super-resolution;unsupervised learning;Gibbs sampling;diffusion models},
   doi={10.1109/TPAMI.2026.3681688}}
 ```
+
+# Acknowledge
+This code is based on [`HIR-Diff`](https://github.com/LiPang/HIRDiff), and [`ddpm-cd`](https://github.com/wgcban/ddpm-cd). Thanks for their awesome work.
+
+# Contact 
+If you have any questions, please feel free to contact us at yzx21@nudt.edu.cn or lingyu25@nudt.edu.cn.
