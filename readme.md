@@ -14,9 +14,9 @@
 </p>
 
 <p>
-	<a href="#quick-demo"><img src="https://img.shields.io/badge/Run-Demo-111827?style=flat-square" alt="Run Demo" /></a>
-	<a href="#visual-results-on-noisy-super-resolution"><img src="https://img.shields.io/badge/View-Figures-111827?style=flat-square" alt="View Figures" /></a>
-	<a href="#citation"><img src="https://img.shields.io/badge/Cite-TPAMI-111827?style=flat-square" alt="Citation" /></a>
+	<a href="#-quick-demo"><img src="https://img.shields.io/badge/Run-Demo-111827?style=flat-square" alt="Run Demo" /></a>
+	<a href="#-visual-results-on-noisy-super-resolution"><img src="https://img.shields.io/badge/View-Figures-111827?style=flat-square" alt="View Figures" /></a>
+	<a href="#-citation"><img src="https://img.shields.io/badge/Cite-TPAMI-111827?style=flat-square" alt="Citation" /></a>
 </p>
 
 [![arxiv](https://img.shields.io/badge/IEEE-paper-blue)](https://ieeexplore.ieee.org/document/11475666)
@@ -25,13 +25,13 @@
 
 | Section | Description |
 |---|---|
-| 📌 [Overview](#📌overview) | Paper abstract and summary |
-| 🖼️ [Visual Results](#visual-results-on-noisy-super-resolution) | Example outputs |
-| ⚙️ [Environment Setup](#environment-setup) | Dependencies & install |
-| 🗂️ [Project Structure](#project-structure) | Repo layout |
-| 📁 [Datasets Preparation](#📁datasets-preparation) | Data & checkpoints |
-| ▶️ [Quick Demo](#quick-demo) | Run examples & commands |
-| 📚 [Citation](#citation) | How to cite |
+| 📌 [Overview](#-overview) | Paper abstract and summary |
+| 🖼️ [Visual Results](#-visual-results-on-noisy-super-resolution) | Example outputs |
+| ⚙️ [Environment Setup](#-environment-setup) | Dependencies & install |
+| 🗂️ [Project Structure](#-project-structure) | Repo layout |
+| 📁 [Datasets Preparation](#-datasets-preparation) | Data & checkpoints |
+| ▶️ [Quick Demo](#-quick-demo) | Run examples & commands |
+| 📚 [Citation](#-citation) | How to cite |
 
 # 📌 Overview
 > **Abstract:** *Hyperspectral image super-resolution (HSI-SR) is fundamentally more difficult than RGB image SR, since its ultrahigh spectral dimensionality.Existing supervised methods rely on labeled training data to obtain data prior, which incurs prohibitive collection costs and limits generalization.Unsupervised methods individually preset the band and kernel with handcrafted priors, whereas this decoupling modeling artificially creates a complexity-performance trade-off in the selected band number.To address these issues, we propose BKX-HMM, a unified statistical framework for blind HSI-SR, which uniformly models the band selection, kernel estimation, and HSI restoration through the state transition of a hidden Markov model (HMM).BKX-HMM redefines the trade-off as a distributional fitting problem: each Markov transition progressively learns optimal parameters of a full-band distribution via limited spectral observations. Based on BKX-HMM, we propose BKSR, the first unsupervised blind HSI-SR method, which consists of three synergistic modules: Gibbs sampling-based band selection (GBS), test-time-training kernel estimation (TKE), and robust HSI restoration (RHR).These modules form a closed-loop optimization cycle: i) In GBS, the dynamic ergodicity of Gibbs sampling provides a global spectral view for kernel estimation and HSI restoration while maintaining local spectral computations;ii) In TKE, the GBS-sampled bands guide the kernel estimator update, achieving a learnable sampling-based mechanism, which refines kernel estimation to regularize RHR’s diffusion trajectory;iii) In RHR, a spectral hyper-Laplacian prior is integrated into the reverse process of an off-the-shelf diffusion model, which achieves non-i.i.d. noise robust HSI restoration, feedback reweights band and kernel importance for subsequent GBS and TKE iterations.Extensive experiments on both synthetic and real HSI datasets demonstrate our BKSR's superiority over baseline methods across diverse scenarios (e.g., unknown Gaussian/motion kernel, non-i.i.d. noise) while maintaining comparable computational costs to the classic band selection methods.*
