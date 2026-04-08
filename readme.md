@@ -17,7 +17,7 @@ Zhixiong Yang, Jingyuan Xia, Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu
 	<a href="#citation"><img src="https://img.shields.io/badge/Cite-TPAMI-111827?style=flat-square" alt="Citation" /></a>
 </p>
 
-[![arxiv](https://img.shields.io/badge/IEEE Xplore-paper-blue)](https://ieeexplore.ieee.org/document/11475666)
+[![arxiv](https://img.shields.io/badge/IEEE-paper-blue)](https://ieeexplore.ieee.org/document/11475666)
 
 </div>
 
