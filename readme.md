@@ -1,8 +1,8 @@
 <div>
 	
-<div align=center>
-<img src="figs/logo.png" height="80%" width="100%"/>
-</div>
+<p align="center">
+    <img src="figs/logo.png" width="400">
+</p>
 
 # [TPAMI 2026] Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution
 
