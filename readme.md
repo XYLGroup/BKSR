@@ -2,7 +2,7 @@
 
 # [TPAMI 2026] Band-kernel Stochastic Learning for Unsupervised Blind Hyperspectral Image Super-Resolution
 
-[`Zhixiong Yang`](https://zhixiongyang21.github.io/), [`Jingyuan Xia`](https://www.xiajingyuan.com/), Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu, Li Liu, Yaowen Fu, Deniz Gündüz, Yongxiang Liu
+[Zhixiong Yang](https://zhixiongyang21.github.io/), [Jingyuan Xia](https://www.xiajingyuan.com/), Shengxi Li, Lingyu Zheng, Shuanghui Zhang, Zhen Liu, Li Liu, Yaowen Fu, Deniz Gündüz, Yongxiang Liu
 
 <p>
 	<img src="https://img.shields.io/badge/TPAMI-2026-0A66C2?style=for-the-badge" alt="TPAMI 2026" />
