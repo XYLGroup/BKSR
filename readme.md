@@ -26,11 +26,11 @@
 | Section | Description |
 |---|---|
 | 📌 [Overview](#-overview) | Paper abstract and summary |
-| 🖼️ [Visual Results](#-visual-results-on-noisy-super-resolution) | Example outputs |
-| ⚙️ [Environment Setup](#-environment-setup) | Dependencies & install |
-| 🗂️ [Project Structure](#-project-structure) | Repo layout |
+| 🖼️ [Visual Results](#️-visual-results-on-noisy-super-resolution) | Example outputs |
+| ⚙️ [Environment Setup](#️-environment-setup) | Dependencies & install |
+| 🗂️ [Project Structure](#️-project-structure) | Repo layout |
 | 📁 [Datasets Preparation](#-datasets-preparation) | Data & checkpoints |
-| ▶️ [Quick Demo](#-quick-demo) | Run examples & commands |
+| ▶️ [Quick Demo](#️-quick-demo) | Run examples & commands |
 | 📚 [Citation](#-citation) | How to cite |
 
 # 📌 Overview
