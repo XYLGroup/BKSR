@@ -1,5 +1,3 @@
-<div>
-	
 <p align="center">
     <img src="figs/logo.png" width="400">
 </p>
@@ -22,8 +20,6 @@
 </p>
 
 [![arxiv](https://img.shields.io/badge/IEEE-paper-blue)](https://ieeexplore.ieee.org/document/11475666)
-
-</div>
 
 ---
 
