@@ -100,8 +100,8 @@ data/
 
 ## Pretrained Diffusion Weights
 
-Download the checkpoint file
-[`I190000_E97_gen.pth`](https://www.dropbox.com/sh/z6k5ixlhkpwgzt5/AAApBOGEUhHa4qZon0MxUfmua?dl=0)
+Download the checkpoint file [I190000_E97_gen.pth] from 
+[`DropBox`](https://www.dropbox.com/sh/z6k5ixlhkpwgzt5/AAApBOGEUhHa4qZon0MxUfmua?dl=0) or [`Baidu Netdisk`](https://pan.baidu.com/s/160vOmkFJlwginX5TryTuMw?pwd=BKSR)
 provided by
 [`ddpm-cd`](https://github.com/wgcban/ddpm-cd),
 and place it at:
